@@ -1,0 +1,55 @@
+
+/* code spasific header */
+@media (max-width:550px) {
+    .header-ul {
+        flex-direction: column;
+        line-height: 2rem;
+    }
+  
+}
+/* codes spasific of box or "h1 */
+@media (min-width:400px) {
+    .box{
+        width: 50%;
+    }
+}  
+
+@media (min-width:1000px) {
+    .box{
+        width: 30%;
+    }
+}  
+
+/* cods spasific of Underline */
+@media (max-width:400px) {
+    .underline {
+        line-height: 3rem;
+        font-size: 1.5rem;
+    }
+  
+}
+/* code spasific of انا مين  that content ali-Img */
+@media (max-width:500px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+/* spasific تعلم برمجة من الصفر */
+@media (max-width:500px) {
+  .divcontainer{
+    margin-left: 0;
+  }
+    
+}
+
+@media (max-width:500px) {
+    .social-links{
+        flex-direction: column;
+        align-items: center;
+        line-height: 2.5rem;
+    }
+    
+}

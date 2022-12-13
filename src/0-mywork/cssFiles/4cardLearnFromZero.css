@@ -1,0 +1,392 @@
+:root {
+    --yourColor: #ff9800;
+    --yourColor2: #4669db;
+    --yourColor1: #ea336a;
+    --yourColorCss: #02b3e4;
+    --yourColorVs: #033f70;
+    --yourColorNjs: #0db484;
+    
+    
+  }
+  
+  * {
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  .allMain{
+    /* background-color: gray; */
+    padding-bottom: 4rem;
+  }
+            
+  .divcontainer {
+    margin-top: 50px;
+    margin-left: 2.2rem;
+  }
+    
+  .myflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+        
+  .number-box {
+    text-align: center;
+    padding: 14px 0;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    width: 20rem;
+  }
+/* the head that write number into square [1] */
+  .number-html {
+    background-color: var(--yourColor1);
+  }
+
+  .number-css {
+    background-color: var(--yourColorCss);
+ 
+  }
+
+  .number-vs {
+    background-color: var(--yourColorVs);
+ 
+  }
+  
+  .number-js {
+    background-color: var(--yourColor);
+  }
+
+  .number-react {
+    background-color: var(--yourColor2);
+  }
+  .number-node {
+    background-color: var(--yourColorNjs);
+  }
+  
+  .num {
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 2px 8px;
+  }
+  /* descrip or organize the h2 call كورس .... كامل  */
+  .html-course {
+    color: var(--yourColor1);
+  }
+
+  .css-course {
+    color: var(--yourColorCss);
+  }
+
+  .vs-course {
+    color: var(--yourColorVs);
+  }
+
+  .js-course {
+    color: var(--yourColor);
+  }
+
+  .react-course {
+    color: var(--yourColor2);
+  }
+
+  .node-course {
+    color: var(--yourColorNjs);
+  }
+  
+  .course-title {
+    font-size: 1.7rem;
+    padding: 30px 0 15px 0;
+  }
+  
+  p.click {
+    color: var(--yourColor);
+    font-size: 1.7rem;
+    font-weight: bold;
+    display: none;
+    color: #fff;
+    transform: translateY(-40px);
+  }
+  
+  .course-box:hover p.click {
+    display: block;
+  }
+  
+  .course-box:hover .mark {
+    display: none;
+  }
+
+  /* descrip or organize logo like "css" that write in bottom of the article */
+  .html-logo {
+    background-color: var(--yourColor1);
+  }
+
+  .css-logo {
+    background-color: var(--yourColorCss);
+  }
+
+  .vs-logo {
+    background-color: var(--yourColorVs);
+  }
+  
+  .js-logo {
+    background-color: var(--yourColor);
+  }
+
+  .react-logo {
+    background-color: var(--yourColor2);
+  }
+
+  .node-logo {
+    background-color: var(--yourColorNjs);
+  }
+  
+  .bottom-course {
+    color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 4px 0;
+    margin-top: 19px;
+    border-top: 3px solid #fff;
+  }
+     
+  .mark {
+    font-size: 1.5rem;   
+    color: inherit;
+    height: 50px;
+    display: block;
+  }
+
+  
+  .dark .course-box,
+  .dark .course-title,
+  .dark .last-two-parts {
+    background-color: aliceblue;
+  }
+  /* descrip or organize the sign like {} into css ... for Example */
+  .html-container {
+    color: var(--yourColor1);
+  }
+
+  .css-container {
+    color: var(--yourColorCss);
+  }
+
+  .vs-container {
+    color: var(--yourColorVs);
+  }
+  
+  .js-container {
+    color: var(--yourColor);
+  }
+
+  .react-container {
+    color: var(--yourColor2);
+  }
+
+  .node-container {
+    color: var(--yourColorNjs);
+  }
+     
+  .last-two-parts {
+    font-weight: bolder;
+    font-size: 2.5rem;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-top: 20px;
+  }
+  
+  .dark .course-box:hover .course-title,
+  .dark .course-box:hover .last-two-parts {
+    background-color: inherit;
+  }
+ /* descrip or organize the container that in center  when we make hover on it */
+  .html-box:hover {
+    background-color: var(--yourColor1);
+    box-shadow: 0 7px 93px 0 rgba(255, 131, 131, 0.47);
+  }
+
+  .css-box:hover {
+    background-color: var(--yourColorCss);
+    box-shadow: 0 7px 93px 0 rgba(255, 131, 131, 0.47);
+  }
+
+  .vs-box:hover {
+    background-color: var(--yourColorVs);
+    box-shadow: 0 7px 93px 0 rgba(255, 131, 131, 0.47);
+  }
+
+
+  .react-box:hover {
+    background-color: var(--yourColor2);
+    box-shadow: 0 7px 93px 0 rgba(255, 131, 131, 0.47);
+  }
+  
+  .js-box:hover {
+    background-color: var(--yourColor);
+    box-shadow: 0 7px 93px 0 rgba(255, 131, 131, 0.47);
+  }
+
+  .node-box:hover {
+    background-color: var(--yourColorNjs);
+    box-shadow: 0 7px 93px 0 rgba(255, 131, 131, 0.47);
+  }
+ /* descrip or organize the container that in center  when we make hover on it  into DARK MODE */
+  .dark .html-box:hover {
+    background-color: var(--yourColor1);
+  }
+
+  .dark .css-box:hover {
+    background-color: var(--yourColorCss);
+  }
+
+  .dark .vs-box:hover {
+    background-color: var(--yourColorVs);
+  }
+
+
+  
+  .dark .js-box:hover {
+    background-color: var(--yourColor);
+  }
+
+  .dark .react-box:hover {
+    background-color: var(--yourColor2);
+  }  
+  
+  .dark .node-box:hover {
+    background-color: var(--yourColorNjs);
+  } 
+  
+  .course-box {
+    border-radius: 8px;
+    box-shadow: 0 0 4px 0 rgba(17, 22, 26, 0.16), 0 2px 4px 0 rgba(17, 22, 26, 0.08), 0 4px 8px 0 rgba(17, 22, 26, 0.08);
+    transition: all 0.4s;
+    text-align: center;
+  }
+  
+  .course-box:hover {
+    animation-name: fade-down;
+    animation-duration: 0.5s;
+  }
+  
+  @keyframes fade-down {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+  
+  @media (max-width: 688px) {
+    .dark .number-box {
+      background-color: aliceblue;
+    }
+    .last-two-parts {
+      padding-top: 0;
+    }
+    .mark {
+      display: none;
+    }
+    .number-box {
+      width: 17rem;
+      background-color: #fff;
+    }
+/* this Organize the number above or over the Article that inside the aquar [2]  into screen less than 688 px */
+    .number-html .num {
+      color: var(--yourColor1);
+      border-color: var(--yourColor1);
+    }
+
+    .number-css .num {
+      color: var(--yourColorCss);
+      border-color: var(--yourColorCss);
+    }  
+
+    .number-vs .num {
+      color: var(--yourColorVs);
+      border-color: var(--yourColorVs);
+    }
+
+
+    .number-js .num {
+      color: var(--yourColor);
+      border-color: var(--yourColor);
+    }
+
+
+    .number-react .num {
+      color: var(--yourColor2);
+      border-color: var(--yourColor2);
+    }
+
+    .number-node .num {
+      color: var(--yourColorNjs);
+      border-color: var(--yourColorNjs);
+    }
+
+   
+    
+
+/* this Organize the number above or over the Article that inside the aquar [2]  into screen less than 688 px  WHEN WE HOVER*/
+    .course-box:hover .number-html {
+      background-color: var(--yourColor1);
+    }  
+
+    .course-box:hover .number-css {
+      background-color: var(--yourColorCss);
+    } 
+
+
+    .course-box:hover .number-vs {
+      background-color: var(--yourColorVs);
+    } 
+
+
+    .course-box:hover .number-js {
+      background-color: var(--yourColor);
+    }
+   
+    .course-box:hover .number-react {
+      background-color: var(--yourColor2);
+    }
+
+    .course-box:hover .number-node {
+      background-color: var(--yourColorNjs);
+    }
+
+
+
+
+    
+    .course-box:hover .num {
+      color: #fff;
+      border-color: white;
+    }
+/* Organize the border Top of the Article into 866 Px Screen */
+    .number-html {
+      border-top: 7px solid var(--yourColor1);
+    }  
+
+    .number-css {
+      border-top: 7px solid var(--yourColorCss);
+    }
+
+    .number-vs {
+      border-top: 7px solid var(--yourColorVs);
+    }
+    .number-js {
+      border-top: 7px solid var(--yourColor);
+    }
+
+    .number-react {
+      border-top: 7px solid var(--yourColor2);
+    }   
+
+
+    .number-node {
+      border-top: 7px solid var(--yourColorNjs);
+    } 
+  }        
